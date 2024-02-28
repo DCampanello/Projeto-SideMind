@@ -1,0 +1,12 @@
+metrics
+4-images/*.png
+*.log
+*.webm
+*.png
+__pycache__/
+*.py[cod]
+*.xml
+*.html
+*.pdf
+*.ciha
+!6-files/**

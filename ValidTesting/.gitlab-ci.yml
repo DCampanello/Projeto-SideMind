@@ -1,0 +1,9 @@
+stages:
+  - Lint
+Lint:
+  stage: Lint
+  image: ${NEXUS_HOST}/mv-release:latest
+  script:
+    - chmod +x .ci/lint.sh
+    - .ci/lint.sh
+
